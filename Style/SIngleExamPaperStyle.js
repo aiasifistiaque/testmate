@@ -1,0 +1,76 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  submitButton: {
+    backgroundColor: 'slateblue',
+    alignItems: 'center',
+    marginHorizontal: 20,
+    borderRadius: 5,
+    paddingVertical: 20,
+    marginBottom: 10,
+    paddingHorizontal: 100,
+  },
+  scroll: {backgroundColor: 'white', width: '100%', marginVertical: 20},
+  elseView: {flex: 1, width: '100%', backgroundColor: 'white'},
+  directionButtons: {
+    flexDirection: 'row',
+    marginTop: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 5,
+  },
+  allButtons: {backgroundColor: 'whitesmoke'},
+  timerContainer: {flexDirection: 'row', alignItems: 'center', marginRight: 15},
+  timerText: {
+    color: 'tomato',
+    marginLeft: 5,
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  timerIcon: {color: 'tomato', marginLeft: 5, fontSize: 15, fontWeight: 'bold'},
+  options: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    padding: 2,
+    marginTop: 5,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+    borderColor: 'whitesmoke',
+    backgroundColor: 'whitesmoke',
+  },
+  haederCloseButton: {color: 'gray', fontSize: 30},
+  containerTop: {flex: 1, alignItems: 'center', backgroundColor: 'whitesmoke'},
+  examTitle: {
+    marginTop: 20,
+    fontSize: 20,
+    textDecorationLine: 'underline',
+  },
+  pickerContainer: {flexDirection: 'row', justifyContent: 'center'},
+  pickerRightText: {marginTop: 15, fontSize: 15},
+  pickerArrow: {color: 'black', fontSize: 25},
+  questionContainer: {
+    flexDirection: 'row',
+    padding: 10,
+    marginHorizontal: 20,
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderColor: 'whitesmoke',
+  },
+  questionIndex: {
+    marginTop: 2,
+    fontWeight: 'bold',
+    fontSize: 18,
+    color: 'black',
+  },
+  question: {fontWeight: 'bold', color: 'black', fontSize: 18},
+  optionContainer: {
+    flex: 1,
+    padding: 20,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  prevButton: {borderColor: 'tomato', paddingRight: 20},
+  nextButton: {marginLeft: 100, borderColor: 'seagreen'},
+});
+
+export default styles;
